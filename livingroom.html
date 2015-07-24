@@ -5,10 +5,15 @@
         <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
         <link href="styles.css" type="text/css" rel="stylesheet" />
         
+        <link href="lightbox/css/lightbox.css" rel="stylesheet">
+        
+        
         
         
     </head>
     <body>
+        
+        <div id="page">
         
         <header role="banner">
         <h1><a href="index.html">Bourgeal3</a>
@@ -38,39 +43,51 @@
             
             <div class="item">
                 <figure>
+                    <a href= "images/living-room-images-resized/stove-resized-800.jpg" data-lightbox="living-room">
                 <img src="images/living-room-images-resized/stove-resized-800.jpg" alt="Woodburner" />
+                </a>
                 </figure>
             </div>
             
             <div class="item">
                 <figure>
+                    <a href="images/living-room-images-resized/settee-red-800.jpg" data-lightbox="living-room">
                 <img src="images/living-room-images-resized/settee-red-800.jpg" alt="Settee" />
+                </a>
                 </figure>
             </div>
             
             <div class="item">
                 <figure>
+                    <a href="images/living-room-images-resized/living-room-window-800.jpg" data-lightbox="living-room">
                 <img src="images/living-room-images-resized/living-room-window-800.jpg" alt="window" />
+                </a>
                 </figure>
             </div>    
               
                
                 <div class="item">
                     <figure>
+                        <a href="images/living-room-images-resized/pine-cones-800.jpg" data-lightbox="living-room">
                     <img src="images/living-room-images-resized/pine-cones-800.jpg" alt="pine cones" />
+                    </a>
                     </figure>
                 </div>
                 
                 <div class="item">
                     <figure>
+                        <a href="images/living-room-images-resized/stove-bunting-800.jpg" data-lightbox="living-room">
                         <img src="images/living-room-images-resized/stove-bunting-800.jpg" alt="stove and bunting" />
+                        </a>
                     </figure>
                 </div>
                 
                 <div class="item">
                     
                     <figure>
+                        <a href="images/living-room-images-resized/settee-light-800.jpg" data-lightbox="living-room">
                         <img src="images/living-room-images-resized/settee-light-800.jpg" alt="settee and light" />
+                        </a>
                     </figure>
                 </div>
                 
@@ -84,6 +101,17 @@
         <footer>
     <p>Copyright: Mark & Sarah Berthelemy 2015.</p>
 </footer>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="lightbox/js/lightbox.js"></script>          
+<script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
+</script>  
             
             
             
