@@ -112,3 +112,61 @@ footer {
 
 }
 
+/* =Responsive Structure
+----------------------------------------------- */
+@media (max-width: 800px) {
+       /* Smaller Resolution Desktops and Laptops */
+       #page {
+        width: 100%;
+       }
+       .wrapper {
+        width: 80%;
+       }
+       .item {
+        width: 45%;
+       }
+}
+@media (max-width: 650px) {
+       /* Smaller devices */
+       #page {
+        width: 100%;
+       }
+       .wrapper {
+        width: 80%;
+       }
+       .item {
+        width: 45%;
+       }
+       .floatleft {
+        clear: both;
+       }
+}
+@media (max-width: 450px) {
+       /* Even Smaller devices */
+       #page {
+        width: 100%;
+       }
+       .wrapper {
+        width: 80%;
+       }
+       .item {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+       }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+       /* Even Smaller devices */
+       #page {
+        width: 100%;
+       }
+       .wrapper {
+        width: 80%;
+       }
+       .item {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+       }
+}
+
